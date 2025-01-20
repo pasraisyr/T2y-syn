@@ -1,0 +1,59 @@
+
+  
+  /* Card styling for the registration form */
+  .registration-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  /* Title styling for the registration form */
+  .registration-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Form styling for the registration form */
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Individual form group styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Input field styling */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for button */
+  button:hover {
+    background-color: #0056b3;
+  }
+  

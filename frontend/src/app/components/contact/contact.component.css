@@ -1,0 +1,36 @@
+.contact-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 15px;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+  }
+  
+  .contact-link:hover {
+    color: #007bff;
+  }
+  
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
