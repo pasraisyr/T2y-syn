@@ -11,7 +11,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 @Component({
   selector: 'app-registration-form',
   templateUrl: './registration-form.component.html',
-  styleUrls: ['./registration-form.component.css'],
+  // styleUrls: ['./registration-form.component.css'],
   imports: [
     NavbarComponent,
     CommonModule,
@@ -28,6 +28,7 @@ export class RegistrationFormComponent {
 
   courses: string[] = ['Mathematics', 'Science', 'Tajweed'];
   preferredTimes: string[] = ['Morning', 'Afternoon', 'Evening'];
+  formLevels : string [] = ['Form 1','Form 2','Form 3'];
 
   constructor(private fb: FormBuilder) {
     // Initialize the registrationForm property
@@ -37,7 +38,8 @@ export class RegistrationFormComponent {
       phone: ['', Validators.required],
       dob: ['', Validators.required],
       course: ['', Validators.required],
-      preferredTime: ['', Validators.required]
+      preferredTime: ['', Validators.required],
+      formLevel: ['', Validators.required]
     });
   }
 

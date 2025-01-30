@@ -1,29 +1,4 @@
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .col-md-4 {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
+
   .circular-image {
     border-radius: 50%;
     width: 150px;
@@ -32,9 +7,4 @@
     margin: 0 auto;
   }
 
-  mat-card-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+ 
